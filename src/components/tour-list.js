@@ -8,7 +8,7 @@ import Footer from './global-components/footer';
 const TourListPage = () => {
     return <div>
         <Navbar />
-        <PageHeader headertitle="Tour List"  />
+        <PageHeader headertitle="Proximas Viajes"  />
         <TourLIst />
         <Subscribe />
         <Footer />

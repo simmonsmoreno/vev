@@ -9,7 +9,7 @@ import Footer from './global-components/footer';
 const GalleryDetailsPage = () => {
     return <div>
         <Navbar />
-        <PageHeader headertitle="Gallery"  />
+        <PageHeader headertitle="Galería"  />
         <GalleryDetails />
         {/* <Ads /> */}
         <Subscribe />

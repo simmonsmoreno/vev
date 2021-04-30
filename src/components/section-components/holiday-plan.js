@@ -22,7 +22,7 @@ class HolidayFun extends Component {
 					<div className="row">
 						<div className="col-lg-3 col-sm-6">
 							<div className="single-destinations-list style-two wow animated fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.1s">
-								<Link to="/tour-details">
+								<Link to="/gallery-details">
 									<div className="thumb">
 										<img src={publicUrl + "assets/img/destination-list/salamanca-1.jpg"} alt="list" />
 									</div>
@@ -39,7 +39,7 @@ class HolidayFun extends Component {
 						</div>
 						<div className="col-lg-3 col-sm-6">
 							<div className="single-destinations-list style-two wow animated fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.1s">
-								<Link to="/tour-details">
+								<Link to="/gallery-details">
 									<div className="thumb">
 										<img src={publicUrl + "assets/img/destination-list/segovia-1.jpg"} alt="list" />
 									</div>
@@ -56,7 +56,7 @@ class HolidayFun extends Component {
 						</div>
 						<div className="col-lg-3 col-sm-6">
 							<div className="single-destinations-list style-two wow animated fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.1s">
-								<Link to="/tour-details">
+								<Link to="/gallery-details">
 									<div className="thumb">
 										<img src={publicUrl + "assets/img/destination-list/leon-1.jpg"} alt="list" />
 									</div>
@@ -73,7 +73,7 @@ class HolidayFun extends Component {
 						</div>
 						<div className="col-lg-3 col-sm-6">
 							<div className="single-destinations-list style-two wow animated fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.1s">
-								<Link to="/tour-details">
+								<Link to="/gallery-details">
 									<div className="thumb">
 										<img src={publicUrl + "assets/img/destination-list/burgos-1.jpg"} alt="list" />
 									</div>
@@ -90,7 +90,7 @@ class HolidayFun extends Component {
 						</div>
 						<div className="col-lg-3 col-sm-6">
 							<div className="single-destinations-list style-two wow animated fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.1s">
-								<Link to="/tour-details">
+								<Link to="/gallery-details">
 									<div className="thumb">
 										<img src={publicUrl + "assets/img/destination-list/zamora-1.jpg"} alt="list" />
 									</div>
@@ -105,7 +105,6 @@ class HolidayFun extends Component {
 								</Link>
 							</div>
 						</div>
-					
 					</div>
 				</div>
 			</div>

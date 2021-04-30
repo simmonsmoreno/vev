@@ -59,7 +59,7 @@ class Footer_v1 extends Component {
 											<i className="fa fa-whatsapp" />
 											<span>
 												+34 685 83 11 43
-								</span>
+											</span>
 										</a>
 									</p>
 								</div>

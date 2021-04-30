@@ -9,7 +9,7 @@ import Gallery from './components/gallery';
 import GalleryDetails from './components/gallery-details';
 import Contact from './components/contact';
 import Error from './components/error';
-import UserProfile from './components/user-profile';
+import Reservar from './components/reservar';
 
 
 
@@ -27,7 +27,7 @@ class Root extends Component {
 	                    <Route path="/gallery-details" component={GalleryDetails} />
 	                    <Route path="/contact" component={Contact} />
 	                    <Route path="/error" component={Error} />
-	                    <Route path="/user-profile" component={UserProfile} />
+	                    <Route path="/pago" component={Reservar} />
 	                </Switch>
 	                </div>
                 </HashRouter>

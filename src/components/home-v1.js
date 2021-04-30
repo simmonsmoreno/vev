@@ -9,16 +9,18 @@ import Subscribe from './section-components/subscribe';
 import Footer from './global-components/footer';
 
 const Home_V1 = () => {
-    return <div>
-        <Navbar />
-        <Banner />
-        <Offer />
-        <Video />
-        <HolidayPlan />
-        <Review />
-        <Subscribe />
-        <Footer />
-    </div>
+    return (
+        <div>
+            <Navbar />
+            <Banner />
+            <Offer />
+            <Video />
+            <HolidayPlan />
+            <Review />
+            <Subscribe />
+            <Footer />
+        </div>
+    )
 }
 
 export default Home_V1

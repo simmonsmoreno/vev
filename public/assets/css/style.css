@@ -44,9 +44,9 @@ Version: 1.0.0
 # Normalize
 --------------------------------------------------------------*/
 :root {
-  --main-color-one: #F3941E;
-  --main-color-two: #071C55;
-  --heading-color: #071C55;
+  --main-color-one: #910b96; /*9200a9*/
+  --main-color-two: #2584bb;
+  --heading-color: #910b96;
   --paragraph-color: #666;
   --heading-font: 'Playfair Display', serif;
   --body-font: 'Poppins', sans-serif;
@@ -2642,9 +2642,9 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     -ms-transform: scale(1.3);
     transform: scale(1.3); }
   .banner-slider .banner-slider-item.banner-bg-1:after {
-    background-image: url("../../assets/img/banner/bg-valladolid.jpg"); }
+    background-image: url("https://media.architecturaldigest.com/photos/57ad893acfc37bc171ad8082/16:9/w_2560%2Cc_limit/madrid-travel-guide.jpg"); }
   .banner-slider .banner-slider-item.banner-bg-2:after {
-    background-image: url("../../assets/img/banner/bg-salamanca.jpg"); }
+    background-image: url("https://www.civitatis.com/blog/wp-content/uploads/2020/02/guggenheim.jpg"); }
   .banner-slider .banner-slider-item.banner-bg-3:after {
     background-image: url("../../assets/img/banner/bg-burgos.jpg"); }
   .banner-slider .banner-slider-item:before {
@@ -3644,7 +3644,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     padding: 23px 30px 19px 30px;
     background: #ffffff; }
     .single-destinations-list .details .location {
-      color: #01B9B7;
+      color: #000000;
       margin-bottom: 8px; }
       .single-destinations-list .details .location img {
         margin-right: 8px; }
@@ -6195,7 +6195,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   bottom: 30px;
   width: 50px;
   height: 50px;
-  background-color: var(--main-color-one);
+  background-color: #009e1a;
   color: #ffffff;
   text-align: center;
   line-height: 50px;

@@ -10,7 +10,7 @@ class Offer extends Component {
 
 		return (
 			<div className="offer-area pd-top-70">
-				<div className="container">
+				{/* <div className="container">
 					<div className="row justify-content-center">
 						<div className="col-xl-6 col-lg-8">
 							<div className="section-title text-center">
@@ -19,7 +19,7 @@ class Offer extends Component {
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> */}
 				<div className="destinations-list-slider-bg">
 					<div className="container">
 						<div className="row">
