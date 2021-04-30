@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import parse from 'html-react-parser';
+// import { Link } from 'react-router-dom';
+// import parse from 'html-react-parser';
 
 class GalleryDetails extends Component {
 
     render() {
 
         let publicUrl = process.env.PUBLIC_URL+'/'
-        let imagealt = 'image'
+        // let imagealt = 'image'
 
     return	<div className="gallery-area pd-top-108">
               <div className="container">
@@ -28,7 +28,7 @@ class GalleryDetails extends Component {
                       <div className="tp-gallery-item col-md-4 col-12 mb-10">
                         <div className="tp-gallery-item-img">
                           <a className="popup-thumb" href={publicUrl+"assets/img/gallery/1.png"} data-effect="mfp-zoom-in">
-                            <img src={publicUrl+"assets/img/gallery/1.png"} alt="image" />
+                            <img src={publicUrl+"assets/img/gallery/1.png"} alt="imagem" />
                           </a>
                         </div>
                       </div>
@@ -36,7 +36,7 @@ class GalleryDetails extends Component {
                       <div className="tp-gallery-item col-md-4 col-12">
                         <div className="tp-gallery-item-img">
                           <a className="popup-thumb" href={publicUrl+"assets/img/gallery/2.png"} data-effect="mfp-zoom-in">
-                            <img src={publicUrl+"assets/img/gallery/2.png"} alt="image" />
+                            <img src={publicUrl+"assets/img/gallery/2.png"} alt="imagem" />
                           </a>
                         </div>
                       </div>
@@ -44,7 +44,7 @@ class GalleryDetails extends Component {
                       <div className="tp-gallery-item col-md-4 col-12">
                         <div className="tp-gallery-item-img">
                           <a className="popup-thumb" href={publicUrl+"assets/img/gallery/3.png"} data-effect="mfp-zoom-in">
-                            <img src={publicUrl+"assets/img/gallery/3.png"} alt="image" />
+                            <img src={publicUrl+"assets/img/gallery/3.png"} alt="imagem" />
                           </a>
                         </div>
                       </div>
@@ -52,7 +52,7 @@ class GalleryDetails extends Component {
                       <div className="tp-gallery-item col-md-4 col-12">
                         <div className="tp-gallery-item-img">
                           <a className="popup-thumb" href={publicUrl+"assets/img/gallery/4.png"} data-effect="mfp-zoom-in">
-                            <img src={publicUrl+"assets/img/gallery/4.png"} alt="image" />
+                            <img src={publicUrl+"assets/img/gallery/4.png"} alt="imagem" />
                           </a>
                         </div>
                       </div>
@@ -60,7 +60,7 @@ class GalleryDetails extends Component {
                       <div className="tp-gallery-item col-md-4 col-12">
                         <div className="tp-gallery-item-img">
                           <a className="popup-thumb" href={publicUrl+"assets/img/gallery/2.png"} data-effect="mfp-zoom-in">
-                            <img src={publicUrl+"assets/img/gallery/2.png"} alt="image" />
+                            <img src={publicUrl+"assets/img/gallery/2.png"} alt="imagem" />
                           </a>
                         </div>
                       </div>
@@ -68,7 +68,7 @@ class GalleryDetails extends Component {
                       <div className="tp-gallery-item col-md-7 col-12">
                         <div className="tp-gallery-item-img">
                           <a className="popup-thumb" href={publicUrl+"assets/img/gallery/6.png"} data-effect="mfp-zoom-in">
-                            <img src={publicUrl+"assets/img/gallery/6.png"} alt="image" />
+                            <img src={publicUrl+"assets/img/gallery/6.png"} alt="imagem" />
                           </a>
                         </div>
                       </div>
@@ -76,7 +76,7 @@ class GalleryDetails extends Component {
                       <div className="tp-gallery-item col-md-5 col-12">
                         <div className="tp-gallery-item-img">
                           <a className="popup-thumb" href={publicUrl+"assets/img/gallery/7.png"} data-effect="mfp-zoom-in">
-                            <img src={publicUrl+"assets/img/gallery/7.png"} alt="image" />
+                            <img src={publicUrl+"assets/img/gallery/7.png"} alt="imagem" />
                           </a>
                         </div>
                       </div>

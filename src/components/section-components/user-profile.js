@@ -35,7 +35,7 @@ class UserProfile extends Component {
 											<a className="nav-link" data-toggle="tab" href="#tabs_6"><i className="fa fa-star-o" />Reviews</a>
 										</li>
 										<li className="text-center">
-											<a className="btn btn-yellow" href="#"><i className="fa fa-sign-in" aria-hidden="true" /> <span>Log Out</span></a>
+											<a className="btn btn-yellow" href="/#"><i className="fa fa-sign-in" aria-hidden="true" /> <span>Log Out</span></a>
 										</li>
 									</ul>
 								</div>
@@ -145,7 +145,7 @@ class UserProfile extends Component {
 															</div>
 															<div className="details">
 																<p className="location"><img src={publicUrl + "assets/img/icons/1.png"} alt="map" />Maldives</p>
-																<h4 className="title"><a href="#">Hurawalhi Island</a></h4>
+																<h4 className="title"><a href="/#">Hurawalhi Island</a></h4>
 																<p className="content">7Days Tour on 2 person</p>
 																<div className="tp-price-meta">
 																	<h2>620 <small>$</small></h2>
@@ -160,7 +160,7 @@ class UserProfile extends Component {
 															</div>
 															<div className="details">
 																<p className="location"><img src={publicUrl + "assets/img/icons/1.png"} alt="map" />Indonesia</p>
-																<h4 className="title"><a href="#">Bali Province</a></h4>
+																<h4 className="title"><a href="/#">Bali Province</a></h4>
 																<p className="content">4days 2 person</p>
 																<div className="tp-price-meta">
 																	<h2>780 <small>$</small></h2>
@@ -205,8 +205,8 @@ class UserProfile extends Component {
 																		<i className="fa fa-cc-mastercard" />
 																		<i className="fa fa-credit-card-alt" />
 																	</div>
-																	<a className="btn btn-transparent" href="#">Cancel</a>
-																	<a className="btn btn-yellow" href="#">Save</a>
+																	<a className="btn btn-transparent" href="/#">Cancel</a>
+																	<a className="btn btn-yellow" href="/#">Save</a>
 																</div>
 															</div>
 														</div>

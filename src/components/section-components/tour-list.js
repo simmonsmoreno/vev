@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import parse from 'html-react-parser';
+// import parse from 'html-react-parser';
 
 class TourList extends Component {
 
     render() {
 
         let publicUrl = process.env.PUBLIC_URL+'/'
-        let imagealt = 'image'
+        // let imagealt = 'image'
 
     return	<div className="tour-list-area pd-top-120 viaje-go-top">
               <div className="container">
@@ -189,12 +189,12 @@ class TourList extends Component {
                   <div className="col-lg-12 text-md-center text-left">
                     <div className="tp-pagination text-md-center text-left d-inline-block mt-4">
                       <ul>
-                        <li><a className="prev page-numbers" href="#"><i className="la la-long-arrow-left" /></a></li>
+                        <li><a className="prev page-numbers" href="/#"><i className="la la-long-arrow-left" /></a></li>
                         <li><span className="page-numbers">1</span></li>
                         <li><span className="page-numbers current">2</span></li>
-                        <li><a className="page-numbers" href="#">3</a></li>
-                        <li><a className="page-numbers" href="#">4</a></li>
-                        <li><a className="next page-numbers" href="#"><i className="la la-long-arrow-right" /></a></li>
+                        <li><a className="page-numbers" href="/#">3</a></li>
+                        <li><a className="page-numbers" href="/#">4</a></li>
+                        <li><a className="next page-numbers" href="/#"><i className="la la-long-arrow-right" /></a></li>
                       </ul>                          
                     </div>
                   </div>

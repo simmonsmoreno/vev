@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import parse from 'html-react-parser';
+// import parse from 'html-react-parser';
 
 class Gallery extends Component {
 
     render() {
 
         let publicUrl = process.env.PUBLIC_URL+'/'
-        let imagealt = 'image'
+        // let imagealt = 'image'
 
     return	<div className="main-gallery-area pd-top-120">
               <div className="container">

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import parse from 'html-react-parser';
+// import { Link } from 'react-router-dom';
+// import parse from 'html-react-parser';
 
 class About extends Component {
 
     render() {
 
         let publicUrl = process.env.PUBLIC_URL+'/'
-        let imagealt = 'image'
+        // let imagealt = 'image'
 
     return	<div className="about-section pd-top-80">
               <div className="container">

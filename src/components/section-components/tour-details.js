@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import parse from 'html-react-parser';
+// import { Link } from 'react-router-dom';
+// import parse from 'html-react-parser';
 
 class TourDetails extends Component {
 
   render() {
 
     let publicUrl = process.env.PUBLIC_URL + '/'
-    let imagealt = 'image'
+    // let imagealt = 'image'
 
     return <div className="tour-details-area mg-top--70">
       <div className="tour-details-gallery">
@@ -19,7 +19,7 @@ class TourDetails extends Component {
               <div className="tp-gallery-item col-md-5 col-sm-6 mb-10">
                 <div className="tp-gallery-item-img">
                   <div className="thumbnails">
-                    <img src={publicUrl + "assets/img/tour-details/1.png"} alt="image" />
+                    <img src={publicUrl + "assets/img/tour-details/1.png"} alt="imagem" />
                     <div className="video-popup-btn">
                       <a href="https://www.youtube.com/watch?v=c7XEhXZ_rsk" className="video-play-btn mfp-iframe" tabIndex={0}><i className="fa fa-play" /></a>
                     </div>
@@ -29,40 +29,40 @@ class TourDetails extends Component {
               {/* gallery-item */}
               <div className="tp-gallery-item col-md-3 col-sm-6">
                 <div className="tp-gallery-item-img">
-                  <a href="#" data-effect="mfp-zoom-in">
-                    <img src={publicUrl + "assets/img/tour-details/2.png"} alt="image" />
+                  <a href="/#" data-effect="mfp-zoom-in">
+                    <img src={publicUrl + "assets/img/tour-details/2.png"} alt="imagem" />
                   </a>
                 </div>
               </div>
               {/* gallery-item */}
               <div className="tp-gallery-item col-lg-2 col-md-4 col-sm-6">
                 <div className="tp-gallery-item-img">
-                  <a href="#" data-effect="mfp-zoom-in">
-                    <img src={publicUrl + "assets/img/tour-details/3.png"} alt="image" />
+                  <a href="/#" data-effect="mfp-zoom-in">
+                    <img src={publicUrl + "assets/img/tour-details/3.png"} alt="imagem" />
                   </a>
                 </div>
               </div>
               {/* gallery-item */}
               <div className="tp-gallery-item col-lg-2 col-md-4 col-sm-6">
                 <div className="tp-gallery-item-img">
-                  <a href="#" data-effect="mfp-zoom-in">
-                    <img src={publicUrl + "assets/img/tour-details/4.png"} alt="image" />
+                  <a href="/#" data-effect="mfp-zoom-in">
+                    <img src={publicUrl + "assets/img/tour-details/4.png"} alt="imagem" />
                   </a>
                 </div>
               </div>
               {/* gallery-item */}
               <div className="tp-gallery-item col-lg-2 col-md-4 col-sm-6">
                 <div className="tp-gallery-item-img">
-                  <a href="#" data-effect="mfp-zoom-in">
-                    <img src={publicUrl + "assets/img/tour-details/5.png"} alt="image" />
+                  <a href="/#" data-effect="mfp-zoom-in">
+                    <img src={publicUrl + "assets/img/tour-details/5.png"} alt="imagem" />
                   </a>
                 </div>
               </div>
               {/* gallery-item */}
               <div className="tp-gallery-item col-lg-2 col-md-4 col-sm-6">
                 <div className="tp-gallery-item-img">
-                  <a href="#" data-effect="mfp-zoom-in">
-                    <img src={publicUrl + "assets/img/tour-details/6.png"} alt="image" />
+                  <a href="/#" data-effect="mfp-zoom-in">
+                    <img src={publicUrl + "assets/img/tour-details/6.png"} alt="imagem" />
                   </a>
                 </div>
               </div>
@@ -82,10 +82,10 @@ class TourDetails extends Component {
                     <span>4.0</span>
                   </div>
                   <div className="all-tags">
-                    <a href="#">Adventures</a>
-                    <a href="#">Local special ties</a>
-                    <a href="#">Natural</a>
-                    <a href="#">Travel</a>
+                    <a href="/#">Adventures</a>
+                    <a href="/#">Local special ties</a>
+                    <a href="/#">Natural</a>
+                    <a href="/#">Travel</a>
                   </div>
                 </div>
               </div>
@@ -216,7 +216,7 @@ class TourDetails extends Component {
                       <div className="single-blog-details">
                         <h4 className="title">Welcome to St. John's</h4>
                         <p className="content">After a welcome drink, we'll stroll into town and get to know each other over a hyper-local “nose-to-tail” dinner. Show more</p>
-                        <a className="btn-read-more" href="#"><span>Show More<i className="la la-arrow-right" /></span></a>
+                        <a className="btn-read-more" href="/#"><span>Show More<i className="la la-arrow-right" /></span></a>
                       </div>
                     </div>
                   </div>
@@ -232,7 +232,7 @@ class TourDetails extends Component {
                       <div className="single-blog-details">
                         <h4 className="title">Relaxation &amp; Exploration</h4>
                         <p className="content">After a welcome drink, we'll stroll into town and get to know each other over a hyper-local “nose-to-tail” dinner. Show more</p>
-                        <a className="btn-read-more" href="#"><span>Show More<i className="la la-arrow-right" /></span></a>
+                        <a className="btn-read-more" href="/#"><span>Show More<i className="la la-arrow-right" /></span></a>
                       </div>
                     </div>
                   </div>
@@ -248,7 +248,7 @@ class TourDetails extends Component {
                       <div className="single-blog-details">
                         <h4 className="title">Farewell &amp; Departure</h4>
                         <p className="content">After a welcome drink, we'll stroll into town and get to know each other over a hyper-local “nose-to-tail” dinner. Show more</p>
-                        <a className="btn-read-more" href="#"><span>Show More<i className="la la-arrow-right" /></span></a>
+                        <a className="btn-read-more" href="/#"><span>Show More<i className="la la-arrow-right" /></span></a>
                       </div>
                     </div>
                   </div>
@@ -262,15 +262,15 @@ class TourDetails extends Component {
                   <h4>Mike At Atlas Obscura Trips</h4>
                   <p>I'm your Atlas Obscura Trip Coordinator. Since 2016, Atlas Obscura has been offering unusual trips to the world’s most extraordinary places. Our itineraries are developed in close collaboration with the locals and insiders who host them—our global community of explorers</p>
                   <p> Felicity Roberts will be leading your trip. A rural Newfoundlander, certified herbalist, farmer, writer, wild food advocate, and self relic, Felicity is most on the barrens cutting heather to dye wool or hanging off the edge</p>
-                  <a className="btn btn-yellow" href="#">Contact Host</a>
+                  <a className="btn btn-yellow" href="/#">Contact Host</a>
                 </div>
               </div>
-              <div className="service-location-map">
+              {/* <div className="service-location-map">
                 <h4 className="single-page-small-title">Service Location</h4>
                 <div className="service-location-map">
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d649788.5753409272!2d-0.5724199684037448!3d52.92186340524542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d94c3b82ab%3A0x62077a554c8e9a8e!2sPetty%20France%2C%20Westminster%2C%20London%2C%20UK!5e0!3m2!1sen!2sbd!4v1572346566908!5m2!1sen!2sbd" />
                 </div>
-              </div>
+              </div> */}
               <div className="comments-area tour-details-review-area">
                 <h4 className="comments-title">Reviews</h4>
                 <ul className="comment-list mb-0">
@@ -314,7 +314,7 @@ class TourDetails extends Component {
                   </li>
                 </ul>
                 <div className="btn-wrapper text-right mt-3">
-                  <a className="btn-read-more" href="#"><span>More Review<i className="la la-arrow-right" /></span></a>
+                  <a className="btn-read-more" href="/#"><span>More Review<i className="la la-arrow-right" /></span></a>
                 </div>
               </div>
               <div className="location-review-area">
@@ -350,7 +350,7 @@ class TourDetails extends Component {
                       </label>
                     </div>
                     <div className="col-12">
-                      <a className="btn btn-yellow" href="#">Send</a>
+                      <a className="btn btn-yellow" href="/#">Send</a>
                     </div>
                   </div>
                 </form>
@@ -386,12 +386,12 @@ class TourDetails extends Component {
                     <textarea placeholder="Type" defaultValue={""} />
                   </div>
                   <div className="text-lg-center text-left">
-                    <a className="btn btn-yellow" href="#">Book Now <i className="fa fa-paper-plane" /></a>
+                    <a className="btn btn-yellow" href="/#">Book Now <i className="fa fa-paper-plane" /></a>
                   </div>
                 </div>
               </div>
               <div className="widget_ads">
-                <a href="#"><img className="w-100" src={publicUrl + "assets/img/others/01.png"} alt="img" /></a>
+                <a href="/#"><img className="w-100" src={publicUrl + "assets/img/others/01.png"} alt="img" /></a>
               </div>
             </div>
           </div>
