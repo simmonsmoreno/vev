@@ -1,4 +1,6 @@
-import React from 'react';
+// import { connect } from "react-redux";
+import axios from 'axios'
+import React, { Component } from 'react'
 import Navbar from './global-components/navbar';
 import Banner from './section-components/banner';
 import Offer from './section-components/offer';
@@ -8,20 +10,36 @@ import Review from './section-components/review';
 import Subscribe from './section-components/subscribe';
 import Footer from './global-components/footer';
 
-const Home_V1 = () => {
-    return (
-        <div>
-            <Navbar />
-            <Banner />
-            <Offer />
-            <Video />
-            <HolidayPlan />
-            <Review />
-            <Subscribe />
-            <Footer />
-        </div>
-    )
+class Home_V1 extends Component {
+
+    state = {
+        viajes: []
+    }
+
+    async componentDidMount() {
+        
+        const res = await axios.get("https://adonisjs-api-vev.herokuapp.com/viajes")
+
+        this.setState({ viajes: res.data })
+    }
+
+
+    render() {
+        return (
+            <div>
+                <div>
+                    <Navbar />
+                    <Banner />
+                    <Offer viajes={this.state.viajes} />
+                    <Video />
+                    <HolidayPlan />
+                    <Review />
+                    <Subscribe />
+                    <Footer />
+                </div>
+            </div>
+        )
+    }
 }
 
-export default Home_V1
-
+export default Home_V1;

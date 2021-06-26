@@ -48,7 +48,7 @@ class Footer_v1 extends Component {
 									<h4 className="widget-title">Donde estamos</h4>
 									<p>
 										<i className="fa fa-map-marker" />
-										<span>Calle Nicasio Pereze, 16 C.P. 47005 - Valladolid (Espanha) </span>
+										<span>Calle San Martin, 21 C.P. 47003 - Valladolid (Espanha) </span>
 									</p>
 									<p className="location">
 										<i className="fa fa-envelope-o" />
@@ -69,7 +69,7 @@ class Footer_v1 extends Component {
 				</div>
 				<div className="copyright-inner">
 					<div className="copyright-text">
-						© Viajes Erasmus Valladolid 2021 All rights reserved. Powered with <i className="fa fa-heart" /> by <a href="https://www.instagram.com/thesimmons__/" target="_blank" rel="noopener noreferrer"><span>@thesimmons.</span></a>
+						© Viajes Erasmus Valladolid 2021. Todos los derechos reservados. Desarrollado por <a href="https://www.instagram.com/thesimmons__/" target="_blank" rel="noopener noreferrer"><span>@thesimmons.</span></a>
 					</div>
 				</div>
 			</footer>

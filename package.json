@@ -12,8 +12,11 @@
     "owl.carousel": "^2.3.4",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-redux": "^7.2.4",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
     "wowjs": "^1.1.3"
   },
   "scripts": {

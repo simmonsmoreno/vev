@@ -25,9 +25,6 @@ class Navbar extends Component {
 						</button>
 						<div className="nav-right-content">
 							<ul className="pl-0">
-								<li className="top-bar-btn-booking">
-									<Link className="btn btn-yellow" to="/tour-details">Reserva <i className="fa fa-paper-plane" /></Link>
-								</li>
 								<li className="search">
 									<i className="ti-search" />
 								</li>
@@ -64,7 +61,16 @@ class Navbar extends Component {
 								<i className="ti-search" />
 							</li>
 							<li>
-								<Link className="btn btn-yellow" to="/tour-details">Reserva <i className="fa fa-paper-plane" /></Link>
+								<a className="facebook" href="https://www.facebook.com/viajeserasmusvalladolid2019" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook  " /></a>
+							</li>
+							<li>
+								<a className="pinterest" href="https://www.instagram.com/viajeserasmusvalladolid/" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram" /></a>
+							</li>
+							<li>
+								<a className="twitter" href="https://www.youtube.com/channel/UCBSWv_nKhphzKUwtQT2Kr2A" target="_blank" rel="noopener noreferrer"><i className="fa fa-youtube  " /></a>
+							</li>
+							<li>
+								<a className="twitter" href="https://api.whatsapp.com/send?phone=0034685831143&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20vuestras%20viajes." target="_blank" rel="noopener noreferrer"><i className="fa fa-whatsapp" /></a>
 							</li>
 						</ul>
 					</div>
